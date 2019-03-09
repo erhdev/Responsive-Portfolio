@@ -94,6 +94,8 @@ a {
 #pic {
     float: left; 
     margin-right: 2%;
+    height: 200px;
+    width: 200px;
 }
 input[type=text] {
     width: 100%;
@@ -117,6 +119,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #408f8b;
 }
+
 textarea {
     width: 100%;
     padding: 12px 20px;
@@ -137,7 +140,10 @@ textarea {
 .galleryimage{
     position: relative;
     z-index:-1;
+    width: 200px;
+    height: 200px;
 }
+
 .gallerytext {
     background-color: #4aaaa5;
     padding-top: 2%;
